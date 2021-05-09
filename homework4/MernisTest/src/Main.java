@@ -10,10 +10,10 @@ public class Main {
 
 	public static void main(String[] args) throws RemoteException {
 		BaseCustomerManager customerManager = new NeroCustomerManager();
-		customerManager.save(new Customer(1,"SEY�T AHMET", "�ZT�RK", 1996, "6604628718"));
+		customerManager.save(new Customer(1,"isim(büyük harflerle)", "soyisim(büyük harflerle)", "doğum yılı(int şeklinde)", "tc yaz buraya"));
 		
 		BaseCustomerManager customerManager2 = new StarbucksCustomerManager(new MernisServiceAdapter());
-		customerManager2.save(new Customer(2,"SEY�T AHMET", "�ZT�RK", 1996, "66046287188"));
+		customerManager2.save(new Customer(1,"isim(büyük harflerle)", "soyisim(büyük harflerle)", "doğum yılı(int şeklinde)", "tc yaz buraya"));
 		 
 	}
 
